@@ -1,14 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import {FlatList, StyleSheet, View} from 'react-native';
-import Header from "./Header";
-import Profile from "./Profile";
-import { friendProfiles, myProfile } from "./data";
-import Margin from "./Margin";
-import Division from "./Division";
-import FriendSection from "./FriendSection";
-import FriendList from "./FriendList";
+import Header from "./src/Header";
+import Profile from "./src/Profile";
+import { friendProfiles, myProfile } from "./src/data";
+import Margin from "./src/Margin";
+import Division from "./src/Division";
+import FriendSection from "./src/FriendSection";
+import FriendList from "./src/FriendList";
 import { useState } from "react";
-import TabBar from "./TabBar";
+import TabBar from "./src/TabBar";
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
 export default function App() {
