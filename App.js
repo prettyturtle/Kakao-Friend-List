@@ -78,28 +78,6 @@ export default function App() {
         </SafeAreaProvider>
 
     )
-
-    // return (
-    //     // <SafeAreaProvider>
-    //     //     <SafeAreaView
-    //     //         edges={["left", "top", "right"]}
-    //     //         style={ styles.container }
-    //     //     >
-    //     //         <View style={{ flex: 1, paddingHorizontal: 15 }}>
-    //     //
-    //     //             <FriendList
-    //     //                 data={ friendProfiles }
-    //     //                 isOpened={ isOpened }
-    //     //             />
-    //     //         </View>
-    //     //         <TabBar
-    //     //             selectedTabIdx={ selectedTabIdx }
-    //     //             setSelectedTabIdx={ setSelectedTabIdx }
-    //     //         />
-    //     //     </SafeAreaView>
-    //     //     <StatusBar style="dark" />
-    //     // </SafeAreaProvider>
-    // )
 }
 
 const styles = StyleSheet.create({
